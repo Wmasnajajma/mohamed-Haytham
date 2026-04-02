@@ -18,12 +18,12 @@ Business Systems Developer at <b>Delfo Systems</b> 💻
 const skills = {
   languages: ["Python", "SQL", "Kotlin (basic)"],
 
-  desktopApps: ["PySide6"],
+  desktopApps: ["PySide6,flet,Tkinter, PyQt"],
 
-  mobileApps: ["Kivy (Python)"],
+  mobileApps: ["Kivy,flet (Python)"],
 
-  dataAnalysis: ["Pandas", "Excel"],
-
+  dataAnalysis: ["Pandas", ,NumPy,"Excel"],
+   web:(Django, Flask)
   tools: ["Git", "GitHub", "Microsoft Office"],
 
   learning: [
