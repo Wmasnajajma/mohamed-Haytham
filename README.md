@@ -12,7 +12,32 @@ Business Systems Developer at <b>Delfo Systems</b> 💻
 <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em>
 </p>
+### 🛠️ Skills
 
+```javascript
+const skills = {
+  languages: ["Python", "SQL", "Kotlin (basic)"],
+
+  desktopApps: ["PySide6"],
+
+  mobileApps: ["Kivy (Python)"],
+
+  dataAnalysis: ["Pandas", "Excel"],
+
+  tools: ["Git", "GitHub", "Microsoft Office"],
+
+  learning: [
+    "Data Analysis",
+    "Database Design",
+    "Building SaaS Applications"
+  ],
+
+  concepts: [
+    "Business Systems",
+    "Automation",
+    "Basic UI/UX"
+  ]
+};
 ---
 
 ### 📫 Connect with me
