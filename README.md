@@ -1,74 +1,70 @@
-<h2>
-  <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 
-  Hi, I'm Mohamed Haitham! 🚀
-  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50">
-</h2>
+# 🏫 تطبيق حضانة عيد الأم النموذجية (Eid El-Om Nursery App)
+### 🚀 تم التطوير والتصميم بواسطة شركة **AURA للبرمجيات والحلول الذكية** ✨
 
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-
-<p>
-<em>
-Business Systems Developer at <b>Delfo Systems</b> 💻
-<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em>
-</p>
-### 🛠️ Skills
-
-```javascript
-const skills = {
-  languages: ["Python", "SQL", "Kotlin (basic)"],
-
-  desktopApps: ["PySide6,flet,Tkinter, PyQt"],
-
-  mobileApps: ["Kivy,flet (Python)"],
-
-  dataAnalysis: ["Pandas", ,NumPy,"Excel"],
-   web:(Django, Flask)
-  tools: ["Git", "GitHub", "Microsoft Office"],
-
-  learning: [
-    "Data Analysis",
-    "Database Design",
-    "Building SaaS Applications"
-  ],
-
-  concepts: [
-    "Business Systems",
-    "Automation",
-    "Basic UI/UX"
-  ]
-};
----
-
-### 📫 Connect with me
-
-- 📧 Email: mh796576@gmail.com  
-- 📱 WhatsApp: (20+1148092856) 
-- 🌐 Facebook: Delfo Systems  
+تطبيق متكامل وشامل لإدارة الحضانات ورياض الأطفال، مبني بأحدث معايير وتصميمات تطبيقات الهواتف الذكية (**Material 3**) مع هوية بصرية ملكية راقية باللون البنفسجي والذهبي الدافئ (`Royal Purple & Warm Peach Gold`)، ودعم كامل للغتين والوضع الليلي/النهاري الفوري.
 
 ---
 
-### 🧠 About Me
+## 🔑 حسابات تسجيل الدخول الافتراضية (Default Accounts)
 
-```javascript
-const mohamed = {
-  role: "Business Systems Developer",
-  focus: [
-    "SaaS Applications",
-    "Business Systems",
-    "Automation with Python"
-  ],
-  currentlyLearning: [
-    "Data Analysis",
-    "System Design",
-    "Building real-world applications"
-  ],
-  projects: [
-    "College Expense Management System",
-    "Smart Excel Analyzer",
-    "Daily Profit Tracker App",
-    "Clinic Management System",
-    "Restaurant Management System"
-  ],
-  goal: "Build software that solves real business problems and generates income"
-};
+| الدور (Role) | اسم المستخدم (Username) | كلمة المرور (Password) | الصلاحيات والوظائف |
+|---|---|---|---|
+| **👑 مدير الحضانة (Admin)** | `admin` | `admin123` | تحكم كامل، إدارة الفصول، المعلمات، أولياء الأمور، الحسابات، النسخ الاحتياطي، تصاريح البوابة، والإعلانات |
+| **👩‍🏫 المعلمة (Teacher)** | `teacher` | `teacher123` | تسجيل الحضور، تقييم المهارات، منهج القرآن، الواجبات، لوحة الشرف، تسليم البوابة، وشات الأهالي |
+| **👨‍👩‍👦 ولي الأمر (Parent)** | `parent` | `parent123` | متابعة الطفل، المنهج والقرآن، سندات القبض الإلكترونية، تصريح الاستلام الآمن، الشكاوى، وطلب الإذن |
+
+---
+
+## 🚀 طرق تشغيل المشروع (How to Run)
+
+### 1. تشغيل التطبيق كنافذة كمبيوتر / هاتف مباشرة (Desktop View):
+* اضغط نقرتين على الملف: **`run_app.bat`**
+* أو نفذ الأمر:
+```bash
+python app/main.py
+```
+
+### 2. تشغيل كنسخة ويب للتجربة والمعاينة من الهاتف عبر الشبكة (Web View):
+* اضغط نقرتين على الملف: **`run_web.bat`**
+* سيفتح المتصفح مباشرة على الرابط: `http://localhost:8550`
+* يمكنك فتح نفس الرابط من هاتفك المتصل بنفس شبكة الواي فاي: `http://192.168.1.17:8550`.
+
+### 3. بناء ملف تطبيق الأندرويد (Android APK):
+* اضغط نقرتين على الملف: **`build_apk.bat`**
+* أو عبر GitHub Actions السحابية المرفقة في المشروع تلقائياً.
+
+---
+
+## 🌟 الفهرس الشامل للميزات والمنظومات المكتملة
+
+1. **🛡️ منظومة الاستلام والتسليم الآمن للبوابة (Safe Pickup Pass)**:
+   - بطاقة تصريح استلام رقمية معتمدة لكل طفل مع كود أمان للبوابة (`PASS-XXXX`).
+   - تسجيل الأشخاص المصرح لهم بالاستلام (الخال، الجدة، السائق) وأرقامهم وإثبات هوياتهم.
+   - توثيق خروج الطفل عند البوابة مع إرسال إشعار فوري وتلقائي لهاتف ولي الأمر.
+
+2. **📖 متابعة حفظ القرآن الكريم والمنهج الأسبوعي**:
+   - تحديد خطة السور القرآنية، الأحاديث النبوية، الأهداف السلوكية، والحساب واللغة العربية.
+   - تقييم حالة تسميع الطفل (أتقن الحفظ 🌟 / قيد الحفظ ⏳ / يحتاج تدريب 🔄) مع تهنئة الأهل.
+
+3. **🧾 الفواتير وسندات القبض الإلكترونية الرسمية**:
+   - شاشة مالية تستعرض المصروفات والمدفوعات والمتبقي.
+   - سند قبض إلكتروني مصمم كإيصال رسمي يحتوي على رقم السند وتاريخ السداد وختم الحضانة.
+
+4. **🌟 لوحة الشرف ونجم الأسبوع (Honor Board)**:
+   - تكريم المتميزين بشارات رقمية براقة (نجم الأسبوع 🌟، حافظ القرآن 📖، السلوك المتميز 🌸، إلخ).
+
+5. **🔍 البحث الذكي والفلترة الفورية للأطفال**:
+   - شريط بحث فوري فائق السرعة يبحث بالاسم، هاتف الطوارئ، الطبيب، أو ولي الأمر.
+   - فلترة مخصصة حسب الفصول الدراسية والتنبيهات الصحية للأطفال.
+
+6. **🚪 تسجيل الخروج السريع والأمان**:
+   - زر خروج مباشر في الشريط العلوي لكافة الحسابات وفي صفحة الملف الشخصي ولوحة التحكم مع تأكيد لمنع الخروج بالخطأ.
+
+7. **📸 معرض صور وفعاليات الحضانة (Moments Feed)**:
+   - نشر صور الأنشطة والرحلات مع زر التفاعل والإعجاب `❤️` للأهالي.
+
+8. **💾 النسخ الاحتياطي وتصدير البيانات**:
+   - أخذ نسخة احتياطية كاملة لقاعدة البيانات، الاسترجاع، وتصدير ملفات Excel و CSV للتحصيل.
+
+---
+© 2026 **حضانة عيد الأم النموذجية** • جميع الحقوق محفوظة لشركة **AURA** للحلول البرمجية.
